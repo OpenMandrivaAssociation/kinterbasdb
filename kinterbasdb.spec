@@ -3,7 +3,7 @@
 %define release	%mkrel 5
 %define cflags -std=c99 $RPM_OPT_FLAGS
 
-Summary:	A Python DB-API 2.0 compliant interface to Firebird.
+Summary:	A Python DB-API 2.0 compliant interface to Firebird
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
