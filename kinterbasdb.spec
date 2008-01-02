@@ -11,6 +11,7 @@ License:	BSD style
 Group:		Databases
 Source0:	%{name}-%{version}.src.tar.bz2
 Group:		Development/Python
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 URL:		http://kinterbasdb.sourceforge.net/
 Requires:	python-egenix-mx-base
 #Requires:	firebird
