@@ -1,6 +1,6 @@
 %define name	kinterbasdb
 %define version	3.2
-%define release	%mkrel 5
+%define release	%mkrel 7
 %define cflags -std=c99 $RPM_OPT_FLAGS
 
 Summary:	A Python DB-API 2.0 compliant interface to Firebird
