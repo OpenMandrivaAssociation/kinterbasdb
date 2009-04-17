@@ -1,6 +1,6 @@
 %define name	kinterbasdb
-%define version	3.2
-%define release	%mkrel 8
+%define version	3.2.2
+%define release	%mkrel 1
 %define cflags -std=c99 $RPM_OPT_FLAGS
 
 Summary:	A Python DB-API 2.0 compliant interface to Firebird
@@ -9,7 +9,7 @@ Version:	%{version}
 Release:	%{release}
 License:	BSD style
 Group:		Databases
-Source0:	%{name}-%{version}.src.tar.bz2
+Source0:	%{name}-%{version}.tar.gz
 Group:		Development/Python
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 URL:		http://kinterbasdb.sourceforge.net/
