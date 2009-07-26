@@ -1,6 +1,6 @@
 %define name	kinterbasdb
-%define version	3.2.2
-%define release	%mkrel 1
+%define version	3.3.0
+%define release	%mkrel 0
 %define cflags -std=c99 $RPM_OPT_FLAGS
 
 Summary:	A Python DB-API 2.0 compliant interface to Firebird
@@ -9,10 +9,10 @@ Version:	%{version}
 Release:	%{release}
 License:	BSD style
 Group:		Databases
-Source0:	%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.bz2
 Group:		Development/Python
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-URL:		http://kinterbasdb.sourceforge.net/
+URL:		http://www.firebirdsql.org/
 Requires:	python-egenix-mx-base
 #Requires:	firebird
 %py_requires -d
@@ -47,6 +47,6 @@ rm -rf %{buildroot}
 %doc docs
 %{py_platsitedir}/%{name}
 %{py_platsitedir}/%{name}-%{version}-py*.egg-info
-%{py_sitedir}/%{name}/docs
+%{py_platsitedir}/%{name}/docs
 
 
