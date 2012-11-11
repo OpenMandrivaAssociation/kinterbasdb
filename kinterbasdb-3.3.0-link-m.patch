@@ -1,0 +1,11 @@
+--- setup.py.link	2011-01-21 14:37:55.000000000 +0100
++++ setup.py	2011-01-21 14:38:14.000000000 +0100
+@@ -1067,7 +1067,7 @@
+     allIncludeDirs.append(DATABASE_INCLUDE_DIR)
+ 
+ # Create a list of all LIB names to be passed to setup():
+-allLibNames = []
++allLibNames = ['m']
+ if DATABASE_LIB_NAME:
+     allLibNames.append(DATABASE_LIB_NAME)
+ allLibNames.extend(PLATFORM_SPECIFIC_LIB_NAMES)
