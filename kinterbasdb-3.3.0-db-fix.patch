@@ -1,0 +1,19 @@
+ diff -u _kiservices.c.orig _kiservices.c 
+--- _kiservices.c.orig  2009-01-06 13:31:08.000000000 +0100
++++ _kiservices.c       2012-11-12 20:44:54.009298202 +0100
+@@ -806,13 +806,10 @@
+   SIC(isc_info_db_impl_last_value);
+   #endif /* isc_info_firebird_version */
+ 
+-  SIC(isc_info_db_impl_isc_a);
++  
+   SIC(isc_info_db_impl_isc_apl_68K);
+-  SIC(isc_info_db_impl_isc_u);
+   SIC(isc_info_db_impl_isc_vax_ultr);
+-  SIC(isc_info_db_impl_isc_v);
+   SIC(isc_info_db_impl_isc_vms);
+-  SIC(isc_info_db_impl_isc_s);
+   SIC(isc_info_db_impl_isc_sun_68k);
+   SIC(isc_info_db_class_access);
+   SIC(isc_info_db_class_y_valve);
+
