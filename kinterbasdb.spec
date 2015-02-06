@@ -1,6 +1,6 @@
 %define name	kinterbasdb
 %define version	3.3.0
-%define release	1
+%define release	2
 
 Summary:	A Python DB-API 2.0 compliant interface to Firebird
 Name:		%{name}
