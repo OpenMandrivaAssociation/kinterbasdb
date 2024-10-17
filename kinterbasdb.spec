@@ -12,7 +12,7 @@ Source0:	%{name}-%{version}.tar.bz2
 Patch0:		kinterbasdb-3.3.0-link-m.patch
 Patch1:		kinterbasdb-3.3.0-db-fix.patch
 Group:		Development/Python
-URL:		http://www.firebirdsql.org/
+URL:		https://www.firebirdsql.org/
 Requires:	python-egenix-mx-base
 %py_requires -d
 BuildRequires:	firebird-devel
